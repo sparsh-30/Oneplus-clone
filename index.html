@@ -11,12 +11,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- Font Awesome API -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid" id="demo" style="padding: 0px 80px;">
-            <!-- <a class="navbar-brand" href="#"><img src="assets/OnePlus-Logo.wine.png" alt="Oneplus Logo" height="50" width="150"></a> -->
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="Oneplus Logo" height="30" width="100"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,7 +44,89 @@
         </div>
     </nav>
 
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/banner1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/banner3.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
+    <!-- Main Body -->
+    <div class="container mt-5">
+        <div class="container-lg row">
+          <div class="col d-flex flex-column justify-content-between">
+            <div>
+              <h5>Capture Every Horizon</h5>
+              <h1>Oneplus 10 Pro<sup>5G</sup></h1>
+            </div>
+            <div>
+              <h5>Co-developed with</h5>
+              <h4>HASSELBLAD</h4><br>
+              <h6>From ₹60 999*</h6>
+              <h6>*Incl. bank discount</h6>
+              <button type="button" class="btn btn-dark btn-custom">Buy Now</button>
+              <button type="button" class="btn btn-outline-dark btn-custom">Learn more</button>
+            </div>
+          </div>
+          <div class="col"><img class="image-zoom" src="assets/10pro.webp" height="400" alt=""></div>
+        </div>
+    </div>
+
+    <div class="row px-5" style="margin: 50px auto;">
+    <div class="container-lg col row m-2 p-4 bg-light">
+      <div class="col d-flex flex-column justify-content-between">
+        <div>
+          <h5>Imagination & Intelligence</h5>
+          <h1>Onepus TV 43|50 Y1S Pro</h1>
+        </div>
+        <div>
+          <h6>4K UHD|Smarter Connectivity|24W Speaker</h6>
+          <h5>From ₹27 499*</h5>
+          <h5>*Incl. bank discount</h5>
+          <button type="button" class="btn btn-dark btn-custom">Buy Now</button>
+          <button type="button" class="btn btn-outline-dark btn-custom">Learn more</button>
+        </div>
+      </div>
+      <div class="col"><img src="assets/tv43.webp" height="250" alt=""></div>
+    </div>
+
+    <div class="container-lg col row m-2 p-4 bg-light">
+      <div class="col d-flex flex-column justify-content-between">
+        <div>
+          <h5>Hear the Unheard</h5>
+          <h1>Onepus Buds Pro</h1>
+        </div>
+        <div>
+          <h5>From <span style="text-decoration: line-through;">₹11 990*</span> ₹8 990*</h5>
+          <h5>*Incl. bank discount</h5>
+          <button type="button" class="btn btn-dark btn-custom">Buy Now</button>
+          <button type="button" class="btn btn-outline-dark btn-custom">Learn more</button>
+        </div>
+      </div>
+      <div class="col"><img src="assets/budsPro.webp" height="250" alt=""></div>
+    </div>
+  </div>
 
 </body>
 </html>

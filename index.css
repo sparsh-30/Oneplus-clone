@@ -1,0 +1,17 @@
+.btn-custom{
+    border-radius: 2px;
+    width: 200px;
+    margin: 10px 5px;
+}
+
+.image-zoom{
+    transition: all 200ms ease-in-out;
+}
+
+.image-zoom:hover{
+    object-fit: cover;
+    transform: scale(1.1,1.1);
+}
+
+
+/* f8f8f8 */
