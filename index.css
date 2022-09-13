@@ -35,7 +35,7 @@ h3{
     text-decoration: none !important;
     font-weight: 500 !important;
     font-size: 1.05rem !important;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.15s ease-in;
 }
 
 .footer-link:hover{
