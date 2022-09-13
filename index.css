@@ -1,0 +1,43 @@
+h1{
+    font-weight: 400 !important;
+    font-size: 2.6rem !important;
+}
+
+h3{
+    font-weight: 400 !important;
+}
+
+.btn-custom{
+    border-radius: 2px;
+    width: 180px;
+    margin: 10px 5px;
+}
+
+.image-zoom{
+    transition: all 0.5s cubic-bezier(.5,.15,0,1);
+    object-fit: cover;
+}
+
+.image-zoom:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+.link-hover{
+    transition: all 0.2s ease-in;
+}
+
+.link-hover:hover{
+    color: #007bff !important;
+}
+
+.footer-link{
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.15s ease-in;
+}
+
+.footer-link:hover{
+    color: #000 !important;
+}
