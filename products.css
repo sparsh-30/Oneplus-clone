@@ -1,0 +1,188 @@
+.image-zoom{
+    height: 57px;
+    width: 42px;
+}
+
+.btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .20rem .2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+    border: 0;
+  }
+  .btn-toggle:hover,
+  .btn-toggle:focus {
+    color: rgba(0, 0, 0, .85);
+    /* background-color: #d2f4ea; */
+  }
+  
+  .btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+  }
+  
+  .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+  }
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+  
+  .btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+  }
+  /* .btn-toggle-nav a:hover,
+  .btn-toggle-nav a:focus {
+     background-color: #d2f4ea; 
+  } */
+
+
+
+
+
+
+
+
+
+  
+
+
+
+.slider{
+    
+    
+    
+    padding: 18px;
+    border-radius: 3px;
+  }
+  .range-slider {
+width: 200px;
+text-align: center;
+
+padding-bottom: 20px;
+}
+.slider p{
+text-align: center;
+margin-top: -10px;
+font-size: 20px;
+}
+.range-slider .rangeValues {
+display: block;
+
+padding: 5px 5px;
+font-size: 15px;
+margin-top:-5px;
+margin-left:-120px;margin-bottom: 35px;
+}
+
+input[type=range] {
+-webkit-appearance: none;
+border: 1px solid white;
+width: 225px;
+position: absolute;
+margin-left:8%;
+margin-top: -15px;
+left: 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+width: 300px;
+height: 5px;
+background: #ddd;
+border: none;
+border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+-webkit-appearance: none;
+border: none;
+height: 18px;
+width: 18px;
+border-radius: 50%;
+background: #f50514;
+margin-top: -6px;
+cursor: pointer;
+position: relative;
+z-index: 1;
+}
+
+input[type=range]:focus {
+outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+background: #ccc;
+}
+
+
+/*The following CSS code is not necessary for everyone*/
+
+input[type=range]::-moz-range-track {
+width: 300px;
+height: 5px;
+background: #ddd;
+border: none;
+border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+border: none;
+height: 16px;
+width: 16px;
+border-radius: 50%;
+background: #21c1ff;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring {
+outline: 1px solid white;
+outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+width: 300px;
+height: 5px;
+/*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+background: transparent;
+/*leave room for the larger thumb to overflow with a transparent border */
+border-color: transparent;
+border-width: 6px 0;
+/*remove default tick marks*/
+color: transparent;
+z-index: -4;
+}
+
+input[type=range]::-ms-fill-lower {
+background: #777;
+border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+background: #ddd;
+border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+border: none;
+height: 16px;
+width: 16px;
+border-radius: 50%;
+background: #21c1ff;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+background: #ccc;
+}
