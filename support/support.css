@@ -1,0 +1,37 @@
+#cover-div{
+    background-image: url("assets/bg-support.png");
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
+}
+
+.devices:hover{
+    color: red;
+}
+
+.services{
+    transition: all 0.2s ease-in-out;
+}
+
+.services:hover{
+    transform: translateY(-15px);
+}
+
+.link-custom{
+    text-decoration: none;
+}
+
+.link-custom:hover{
+    text-decoration: underline;
+}
+
+.footer-link{
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.15s ease-in;
+}
+
+.footer-link:hover{
+    color: #000 !important;
+}
