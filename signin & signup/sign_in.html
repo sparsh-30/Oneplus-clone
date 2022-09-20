@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneplus-Account(Sign In)</title>
+	<!-- Bootstrap 5 CDN Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS Link -->
+	<link rel="stylesheet" href="sign_in.css">
+
+	<!-- Font Awesome API -->
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.webp">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: white; font-weight: 500; border-bottom: 1px solid #ccc;">
+        <div class="container-fluid ms-2" >
+          <a class="navbar-brand" href="../index.html"><img src="assets/logo.png" alt="pic" style="height: 30px; width: 120px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Phone<span class="series-new">New</span></a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">TV</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Audio<span class="series-new">New</span></a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Wearables</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Store</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Offers</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../support/support.html">Support</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Explore</a>
+              </li>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-user fa-lg"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-shopping-cart fa-lg"></i></a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+
+	
+
+    <section class="wrapper">
+		<div class="container">
+			<div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+				
+				<form class="py-5 px-5">
+					<h5 class="mb-4">Welcome</h5>
+					<div class="form-floating mb-3">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="background-color:white; border: 1px solid #ccc;"   >
+						<label for="floatingInput">Email/Mobile Number</label>
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="floatingPassword" placeholder="Password" style="background-color:white; border: 1px solid #ccc;">
+						<label for="floatingPassword">Password</label>
+					</div>
+					<button type="submit" class="btn btn submit_btn w-100 my-4 text-center" style="height: 40px; background-color: #EB0028; color: white;">Sign in</button>
+					<div class="text-center text-muted mb-2" style="color: #666; font-size: 14px; font-weight: 500;">Or login with</div>
+					<a href="#" class="btn btn-light login_with w-100 mb-2" style="height: 45px; background-color: #101920; color: white;">
+						Phone Number
+					</a>
+					<a href="#" class="btn btn btn-md px-3 text-center w-100 mb-2" tabindex="-1" role="button" style="background-color: white; font-weight: 600; border: 1px solid #ccc;"><img src="assets/google.png" alt="pic" class="pics2"> Google</a>
+					<a href="#" class="btn btn btn-md px-3 text-center w-100" tabindex="-1" role="button" style="background-color: #3c5a99; border: 1px solid #3c5a99; color: white; font-weight: 600;"><img src="assets/facebook.png" alt="pic" class="pics"> Facebook</a>
+                    <div class="form-floating mt-4 mb-4">
+						<a href="sign_up2.html" class="text-primary fw text-decoration-none" style="color: #09c; margin-right: 20px;">Sign up</a>
+						|
+						<a href="#" class="text-primary fw text-decoration-none" style="color: #09c; margin-left: 20px;">Forget Password</a>
+					</div>
+					<div class="form-floating text-center" style="font-size: 14px;">
+						Protected  by reCAPTCHA and subject to OnePlus
+						<mark>User Agreement</mark> and <mark>Privacy Policy</mark>.
+					</div>
+				</form>
+			</div>
+		</div>
+    <hr>
+	</section>
+
+  <nav class="container mt-5" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb fs-5">
+      <li class="breadcrumb-item"><a class="text-dark text-decoration-none" href="../index.html">Home</a></li>
+      <li class="breadcrumb-item active text-dark" aria-current="page">Sign In</li>
+    </ol>
+</nav><hr>
+  
+
+  <footer class="container mx-auto my-5">
+    <div class="row mb-5">
+      <div class="col-sm d-flex flex-column">
+        <h5 class="mb-3">Phones</h5>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus 10T 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus Nord 2T 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus 10R 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus Nord CE 2 Lite 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus 10 Pro 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus Nord CE 2 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus Nord 2 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus Nord CE 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus 9 Pro 5G</a>
+        <a class="text-secondary my-2 footer-link" href="">Oneplus 9 5G</a>
+      </div>
+  
+      <div class="col-sm d-flex flex-column">
+        <h5 class="mb-3">Store</h5>
+        <a class="text-secondary my-2 footer-link" href="">TV</a>
+        <a class="text-secondary my-2 footer-link" href="">Audio</a>
+        <a class="text-secondary my-2 footer-link" href="">Wearables</a>
+        <a class="text-secondary my-2 footer-link" href="">Cases & Protection</a>
+        <a class="text-secondary my-2 footer-link" href="">Power & Cables</a>
+        <a class="text-secondary my-2 footer-link" href="">Bundles</a>
+        <a class="text-secondary my-2 footer-link" href="">Gear</a>
+      </div>
+  
+      <div class="col-sm d-flex flex-column">
+        <h5 class="mb-3">Support</h5>
+        <a class="text-secondary my-2 footer-link" href="">Shopping FAQs</a>
+        <a class="text-secondary my-2 footer-link" href="">User Manuals</a>
+        <a class="text-secondary my-2 footer-link" href="">Service Centers</a>
+        <a class="text-secondary my-2 footer-link" href="">Affiliate Program</a>
+        <a class="text-secondary my-2 footer-link" href="">Repair Service</a>
+        <a class="text-secondary my-2 footer-link" href="">Repair Pricing</a>
+        <a class="text-secondary my-2 footer-link" href="">Software Update</a>
+      </div>
+  
+      <div class="col-sm d-flex flex-column">
+        <h5 class="mb-3">Explore</h5>
+        <a class="text-secondary my-2 footer-link" href="">About OnePlus</a>
+        <a class="text-secondary my-2 footer-link" href="">Community</a>
+        <a class="text-secondary my-2 footer-link" href="">Find a store</a>
+        <a class="text-secondary my-2 footer-link" href="">OnePlus Store app</a>
+        <a class="text-secondary my-2 footer-link" href="">OxygenOS</a>
+        <a class="text-secondary my-2 footer-link" href="">Press</a>
+        <a class="text-secondary my-2 footer-link" href="">Blog</a>
+        <a class="text-secondary my-2 footer-link" href="">Careers</a>
+        <a class="text-secondary my-2 footer-link" href="">Campus Opportunities</a>
+      </div>
+  
+      <div class="col-sm d-flex flex-column">
+        <h5 class="mb-3">Programs</h5>
+        <a class="text-secondary my-2 footer-link" href="">Exchange Program</a>
+        <a class="text-secondary my-2 footer-link" href="">Red Cable Club</a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between px-lg-5">
+      <div class="text-secondary">
+        <i class="fa fa-credit-card"></i> Credit/Debit Card
+      </div>
+      <div>
+        <span class="text-primary mx-5">Contact</span>
+        <img class="mx-3" src="assets/fb.png" height="23" width="23" alt="">
+        <img class="mx-3" src="assets/instagram.png" height="23" width="23" alt="">
+        <img class="mx-3" src="assets/twitter-sign.png" height="23" width="23" alt="">
+      </div>
+    </div>
+  </footer>
+    
+</body>
+</html>

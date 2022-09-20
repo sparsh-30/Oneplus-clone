@@ -1,8 +1,18 @@
 #cover-div{
-    background-image: url("assets/bg-support.png");
+    background-image: url("assets/bg-support.jpg");
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     background-size: 100% 100%;
+}
+
+.image-zoom{
+    transition: all 0.5s cubic-bezier(.5,.15,0,1);
+    object-fit: cover;
+}
+
+.image-zoom:hover{
+    overflow: hidden;
+    transform: scale(1.2);
 }
 
 .devices:hover{
