@@ -114,7 +114,30 @@
         <!-- Product Pricing -->
         <div class="product-price">
           <span>₹49 999</span>
-          <a href="#" class="cart-btn">Add to cart</a>
+          <!-- <a href="#" class="cart-btn">Add to cart</a> -->
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary cart-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add to Cart
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirm</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body my-4 fs-5">
+        Are you sure you want to add <span class="text-danger fs-5 me-0">OnePlus 10T 5G</span> to your cart?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">No</button>
+        <button type="button" class="btn btn-danger">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </main>
